@@ -1,0 +1,4 @@
+To run python, first install the newest python version at https://www.python.org/downloads/.
+
+Next, I suggest using VSCode or PyCharm (I Prefer VSCode) to navigate to the folder in their built-in terminals.
+Running "py NameOfApp.py" should run it in a dedicated console.
