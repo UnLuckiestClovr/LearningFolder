@@ -1,0 +1,13 @@
+from typing import Union
+from fastapi import FastAPI
+
+app = FastAPI()
+
+@app.get('/')
+async def read_root():
+    return {"Hello": "World"}
+
+
+@app.get('/api/{message}')
+async def read_message(message: str):
+    return { "message" : f"{message}" }
